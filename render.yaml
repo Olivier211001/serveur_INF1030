@@ -4,5 +4,4 @@ services:
     runtime: docker
     plan: free
     buildCommand: "./mvnw spring-boot:run"
-    startCommand: "true"
     envVars: []
